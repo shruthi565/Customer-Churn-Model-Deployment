@@ -121,11 +121,14 @@ upload_to_s3.py
     "Total_Spend":1500,
     "Contract_Length":12
 }
+```
 Response
 {
     "churn_prediction":0
 }
 
+```
+```
 Deployment
 
 The application is deployed on AWS Elastic Beanstalk.
