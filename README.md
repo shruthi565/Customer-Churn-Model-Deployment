@@ -121,7 +121,7 @@ upload_to_s3.py
     "Total_Spend":1500,
     "Contract_Length":12
 }
-###Response
+Response
 {
     "churn_prediction":0
 }
