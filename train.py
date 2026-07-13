@@ -54,7 +54,6 @@ with mlflow.start_run():
     print("\nClassification Report:\n")
     print(classification_report(y_test, y_pred))
 
-    
     # Log Parameters
     mlflow.log_param("Algorithm", "XGBoost")
     mlflow.log_param("Random_State", 42)
@@ -64,7 +63,6 @@ with mlflow.start_run():
     mlflow.log_metric("Accuracy", accuracy)
 
     # Register Model
-
     mlflow.xgboost.log_model(xgb_model=model,name="model",registered_model_name="Customer_Churn_Model")
     print("\nModel registered successfully in MLflow.")
 
