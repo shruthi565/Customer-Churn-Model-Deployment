@@ -122,15 +122,17 @@ upload_to_s3.py
     "Contract_Length":12
 }
 ```
-Response
+### Response
+```
 {
     "churn_prediction":0
 }
 
 ```
-```
-Deployment
+
+### Deployment
 
 The application is deployed on AWS Elastic Beanstalk.
 
 FastAPI automatically downloads the trained model from Amazon S3 before serving prediction requests.
+```
