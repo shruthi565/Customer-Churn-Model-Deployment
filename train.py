@@ -27,7 +27,7 @@ df["Contract Length"] = encoder.fit_transform(df["Contract Length"])
 # Features and Target
 X = df[[
         "Age",
-        "Tenture",
+        "Tenure",
         "Total Spend",
         "Contract Length"
     ]]
